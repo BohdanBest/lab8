@@ -1,0 +1,170 @@
+{
+  "experiment_name": "inception_v3_tune_blocks_3",
+  "model_key": "inception_v3",
+  "display_name": "InceptionV3",
+  "unfreeze_blocks": 3,
+  "cut_layer_name": "mixed7",
+  "unfreeze_description": "3 блоки: mixed8 + mixed9 + mixed10 (BatchNorm заморожено)",
+  "dense_units": 256,
+  "second_dense_units": 0,
+  "dropout_rate": 0.5,
+  "optimizer": "adam",
+  "learning_rate": 1e-05,
+  "batch_size": 50,
+  "warmup_epochs": 10,
+  "finetune_epochs": 8,
+  "train_samples_ft": 2000,
+  "val_samples_ft": 500,
+  "best_epoch": 1,
+  "best_val_loss": 0.02318,
+  "best_val_accuracy": 0.994,
+  "final_train_accuracy": 1.0,
+  "final_val_accuracy": 0.994,
+  "final_train_loss": 0.00012,
+  "final_val_loss": 0.03813,
+  "overfitting_acc_gap": 0.006,
+  "overfitting_loss_gap": 0.03801,
+  "trainable_params": 13328897,
+  "total_backbone_layers": 311,
+  "trainable_weight_layers_in_backbone": 24,
+  "frozen_bn_layers": 94,
+  "warmup_seconds": 4.45,
+  "finetune_seconds": 203.99,
+  "test_metrics": {
+    "accuracy": 0.99361,
+    "loss": 0.0248,
+    "roc_auc": 0.9986,
+    "f1": 0.99362,
+    "precision": 0.99125,
+    "recall": 0.996,
+    "errors_count": 16,
+    "total_samples": 2502,
+    "confusion_matrix": [
+      [
+        1240,
+        11
+      ],
+      [
+        5,
+        1246
+      ]
+    ]
+  },
+  "warmup_history": {
+    "accuracy": [
+      0.9365,
+      0.9905,
+      0.99,
+      0.99,
+      0.9975,
+      0.997,
+      0.998,
+      0.9985,
+      1.0,
+      0.999
+    ],
+    "auc": [
+      0.988216,
+      0.999013,
+      0.999517,
+      0.999569,
+      0.999912,
+      0.999987,
+      0.999987,
+      0.999997,
+      1.0,
+      0.99999
+    ],
+    "loss": [
+      0.140466,
+      0.028235,
+      0.028918,
+      0.027881,
+      0.011874,
+      0.007293,
+      0.00581,
+      0.00469,
+      0.002888,
+      0.004705
+    ],
+    "val_accuracy": [
+      0.992,
+      0.996,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.992,
+      0.99,
+      0.992,
+      0.988
+    ],
+    "val_auc": [
+      0.99968,
+      0.997904,
+      0.999728,
+      0.997904,
+      0.999656,
+      0.997824,
+      0.997784,
+      0.997752,
+      0.997784,
+      0.99384
+    ],
+    "val_loss": [
+      0.027651,
+      0.025869,
+      0.026878,
+      0.027614,
+      0.028006,
+      0.028287,
+      0.031003,
+      0.03565,
+      0.034188,
+      0.042185
+    ]
+  },
+  "history": {
+    "loss": [
+      0.015754,
+      0.002708,
+      0.000785,
+      0.000452,
+      0.000259,
+      0.000178,
+      0.000159,
+      0.000122
+    ],
+    "accuracy": [
+      0.996,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "val_loss": [
+      0.02318,
+      0.03107,
+      0.03022,
+      0.03123,
+      0.03463,
+      0.03797,
+      0.03724,
+      0.03813
+    ],
+    "val_accuracy": [
+      0.994,
+      0.992,
+      0.994,
+      0.994,
+      0.994,
+      0.992,
+      0.994,
+      0.994
+    ]
+  },
+  "milestones": []
+}

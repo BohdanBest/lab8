@@ -1,0 +1,178 @@
+{
+  "experiment_name": "vgg16_ex5_opt_sgd",
+  "model_key": "vgg16",
+  "display_name": "VGG16",
+  "unfreeze_blocks": 1,
+  "cut_layer_name": "block4_pool",
+  "unfreeze_description": "1 блок: block5_conv1..block5_conv3 (3 згорткові шари)",
+  "dense_units": 256,
+  "second_dense_units": 0,
+  "dropout_rate": 0.5,
+  "optimizer": "sgd",
+  "learning_rate": 1e-05,
+  "batch_size": 50,
+  "warmup_epochs": 10,
+  "finetune_epochs": 10,
+  "train_samples_ft": 2000,
+  "val_samples_ft": 500,
+  "best_epoch": 5,
+  "best_val_loss": 0.05874,
+  "best_val_accuracy": 0.984,
+  "final_train_accuracy": 0.9965,
+  "final_val_accuracy": 0.984,
+  "final_train_loss": 0.00997,
+  "final_val_loss": 0.05962,
+  "overfitting_acc_gap": 0.0125,
+  "overfitting_loss_gap": 0.04965,
+  "trainable_params": 7211009,
+  "total_backbone_layers": 19,
+  "trainable_weight_layers_in_backbone": 3,
+  "frozen_bn_layers": 0,
+  "warmup_seconds": 3.57,
+  "finetune_seconds": 118.8,
+  "test_metrics": {
+    "accuracy": 0.98361,
+    "loss": 0.06258,
+    "roc_auc": 0.99814,
+    "f1": 0.98361,
+    "precision": 0.984,
+    "recall": 0.98321,
+    "errors_count": 41,
+    "total_samples": 2502,
+    "confusion_matrix": [
+      [
+        1231,
+        20
+      ],
+      [
+        21,
+        1230
+      ]
+    ]
+  },
+  "warmup_history": {
+    "accuracy": [
+      0.9115,
+      0.977,
+      0.9785,
+      0.976,
+      0.988,
+      0.987,
+      0.9905,
+      0.9895,
+      0.9965,
+      0.9955
+    ],
+    "auc": [
+      0.958072,
+      0.993071,
+      0.995788,
+      0.994859,
+      0.998581,
+      0.998975,
+      0.999188,
+      0.999721,
+      0.99992,
+      0.999904
+    ],
+    "loss": [
+      0.421636,
+      0.102045,
+      0.071979,
+      0.076719,
+      0.030317,
+      0.031957,
+      0.024442,
+      0.022143,
+      0.011296,
+      0.012169
+    ],
+    "val_accuracy": [
+      0.982,
+      0.976,
+      0.978,
+      0.986,
+      0.982,
+      0.982,
+      0.984,
+      0.984,
+      0.986,
+      0.98
+    ],
+    "val_auc": [
+      0.99508,
+      0.994808,
+      0.995248,
+      0.993008,
+      0.99312,
+      0.995192,
+      0.99336,
+      0.997168,
+      0.99532,
+      0.99524
+    ],
+    "val_loss": [
+      0.078754,
+      0.091428,
+      0.077983,
+      0.076059,
+      0.071714,
+      0.061278,
+      0.066044,
+      0.059016,
+      0.069228,
+      0.067759
+    ]
+  },
+  "history": {
+    "loss": [
+      0.009577,
+      0.014941,
+      0.012291,
+      0.007805,
+      0.011611,
+      0.010548,
+      0.00906,
+      0.009898,
+      0.010616,
+      0.009968
+    ],
+    "accuracy": [
+      0.997,
+      0.995,
+      0.9965,
+      0.996,
+      0.9955,
+      0.9965,
+      0.9965,
+      0.9975,
+      0.9975,
+      0.9965
+    ],
+    "val_loss": [
+      0.0591,
+      0.05974,
+      0.05957,
+      0.05994,
+      0.05874,
+      0.05934,
+      0.06067,
+      0.06088,
+      0.0599,
+      0.05962
+    ],
+    "val_accuracy": [
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984,
+      0.984
+    ]
+  },
+  "milestones": []
+}

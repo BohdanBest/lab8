@@ -1,0 +1,5 @@
+Model,Input Size,Unfrozen Scope,Optimizer & LR,Total Params,Trainable Params,Test Accuracy (%),Test Loss,ROC-AUC,F1-Score,Test Errors (/2502),External 10-Photo Acc (%),External Mean Conf (%),Size (MB),Total Time (s)
+VGG16,224x224,1 blk (block4_pool+),ADAM (5e-06),14854273,7219009,99.08,0.031,0.99916,0.9908,23,100.0,99.83,56.76,703.7
+ResNet50,224x224,1 blk (conv4_block6_out+),ADAM (1e-06),24112513,15478273,99.2,0.023,0.99936,0.992,20,100.0,99.26,92.62,1022.1
+InceptionV3,299x299,2 blk (mixed8+),ADAM (1e-05),22327585,11633153,99.32,0.0207,0.99906,0.9932,17,100.0,99.89,86.23,779.2
+MobileNetV2,224x224,2 blk (block_14_add+),RMSPROP (1e-05),2586177,1523073,99.12,0.0251,0.99918,0.9912,22,90.0,97.69,10.43,647.9

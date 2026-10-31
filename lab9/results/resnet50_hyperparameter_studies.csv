@@ -1,0 +1,5 @@
+Setting,Optimizer,Learning Rate,Best Epoch,Best Val Loss,Overfit Gap (%),Test Accuracy (%),Test Loss,ROC-AUC
+Adam lr=1e-4,ADAM,0.0001,1,0.05039,1.4,98.12,0.0466,0.99874
+Adam lr=1e-5,ADAM,1e-05,1,0.05258,1.2,98.48,0.0454,0.999
+Adam lr=1e-6,ADAM,1e-06,1,0.04649,1.4,98.56,0.041,0.99866
+RMSprop lr=1e-5,RMSPROP,1e-05,1,0.05231,1.4,98.72,0.0416,0.99884

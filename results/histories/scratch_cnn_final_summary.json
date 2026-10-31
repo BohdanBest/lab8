@@ -1,0 +1,105 @@
+{
+  "model_key": "scratch_cnn",
+  "display_name": "Scratch CNN (Lab 7)",
+  "dropout_rate": 0.5,
+  "epochs": 8,
+  "best_epoch": 8,
+  "best_val_loss": 0.31115,
+  "best_val_accuracy": 0.86389,
+  "final_train_accuracy": 0.86498,
+  "final_val_accuracy": 0.863891,
+  "overfitting_acc_gap": 0.00109,
+  "save_filename": "scratch_cnn_lab7_baseline.keras",
+  "model_size_mb": 3.2,
+  "image_size": [
+    150,
+    150
+  ],
+  "preprocess_description": "Rescaling [0, 1] (no pretrained weights)",
+  "extraction_seconds": 0.0,
+  "head_train_seconds": 1539.69,
+  "total_pipeline_seconds": 1539.69,
+  "total_params": 274113,
+  "trainable_params": 274113,
+  "non_trainable_params": 0,
+  "test_metrics": {
+    "accuracy": 0.86651,
+    "loss": 0.31911,
+    "roc_auc": 0.94715,
+    "f1": 0.87377,
+    "precision": 0.82867,
+    "recall": 0.92406,
+    "confusion_matrix": [
+      [
+        1012,
+        239
+      ],
+      [
+        95,
+        1156
+      ]
+    ]
+  },
+  "history": {
+    "accuracy": [
+      0.59679,
+      0.682952,
+      0.715257,
+      0.760714,
+      0.793869,
+      0.821373,
+      0.852828,
+      0.86498
+    ],
+    "auc": [
+      0.636591,
+      0.742226,
+      0.782949,
+      0.832654,
+      0.871443,
+      0.897577,
+      0.926154,
+      0.939597
+    ],
+    "loss": [
+      0.658216,
+      0.596377,
+      0.561525,
+      0.505591,
+      0.450531,
+      0.405427,
+      0.347249,
+      0.314207
+    ],
+    "val_accuracy": [
+      0.672938,
+      0.68735,
+      0.746597,
+      0.776621,
+      0.785428,
+      0.796637,
+      0.863491,
+      0.863891
+    ],
+    "val_auc": [
+      0.742353,
+      0.773155,
+      0.821869,
+      0.874687,
+      0.897377,
+      0.915239,
+      0.938522,
+      0.949471
+    ],
+    "val_loss": [
+      0.604869,
+      0.581281,
+      0.530975,
+      0.482479,
+      0.460686,
+      0.432456,
+      0.317846,
+      0.31115
+    ]
+  }
+}

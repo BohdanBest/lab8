@@ -1,0 +1,5 @@
+Model,Lab 8 Ext Acc (%),Lab 9 Ext Acc (%),Lab 8 Mean Confidence (%),Lab 9 Mean Confidence (%),Lab 8 Ext BCE Loss,Lab 9 Ext BCE Loss
+VGG16,100.0,100.0,99.267,99.826,0.00746,0.00176
+ResNet50,100.0,100.0,99.26,99.26,0.00768,0.00768
+InceptionV3,100.0,100.0,99.888,99.888,0.00112,0.00112
+MobileNetV2,100.0,90.0,95.296,97.694,0.06296,0.14847

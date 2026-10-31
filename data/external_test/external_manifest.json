@@ -1,0 +1,72 @@
+[
+  {
+    "class_name": "cats",
+    "filename": "ext_cat_01_tabby.jpg",
+    "rel_path": "cats/ext_cat_01_tabby.jpg",
+    "sha256": "b4840febec9b813b78aba7aa1930f8c603dd057844aeebffc773a3c66e8656ab",
+    "source_url": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=640&q=85"
+  },
+  {
+    "class_name": "cats",
+    "filename": "ext_cat_02_orange.jpg",
+    "rel_path": "cats/ext_cat_02_orange.jpg",
+    "sha256": "e165393c0e8f90c2fea415e76afb79fba350e54763e744a6c375f7fe59981cdd",
+    "source_url": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=640&q=85"
+  },
+  {
+    "class_name": "cats",
+    "filename": "ext_cat_03_white_cat.jpg",
+    "rel_path": "cats/ext_cat_03_white_cat.jpg",
+    "sha256": "2fe878bd8a58b74dd3a77ae0cf7261d89871989b1f57a40c432bb7ed29e7613d",
+    "source_url": "https://images.unsplash.com/photo-1513245543132-31f507417b26?w=640&q=85"
+  },
+  {
+    "class_name": "cats",
+    "filename": "ext_cat_04_kitten.jpg",
+    "rel_path": "cats/ext_cat_04_kitten.jpg",
+    "sha256": "65b912e2b8c1198f8ddb24d1036e973d4953d49638188c7ccc5280d01ab59128",
+    "source_url": "https://images.unsplash.com/photo-1595433707802-6b2626ef1c91?w=640&q=85"
+  },
+  {
+    "class_name": "cats",
+    "filename": "ext_cat_05_portrait.jpg",
+    "rel_path": "cats/ext_cat_05_portrait.jpg",
+    "sha256": "16ab07bfdf3a05878cf036dc24907b9a221d4b263453343c94c6a747ee4e4166",
+    "source_url": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=640&q=85"
+  },
+  {
+    "class_name": "dogs",
+    "filename": "ext_dog_01_golden_retriever.jpg",
+    "rel_path": "dogs/ext_dog_01_golden_retriever.jpg",
+    "sha256": "e3832cde225c7876c43b2413e2dddb8024e4e24bf2f868f8d80c4355c1dfffb7",
+    "source_url": "https://images.unsplash.com/photo-1552053831-71594a27632d?w=640&q=85"
+  },
+  {
+    "class_name": "dogs",
+    "filename": "ext_dog_02_samoyed.jpg",
+    "rel_path": "dogs/ext_dog_02_samoyed.jpg",
+    "sha256": "e95deac99e3d787c1dd77018633659ce5a492f177265a9e0fcfd2b094f260b79",
+    "source_url": "https://raw.githubusercontent.com/pytorch/hub/master/images/dog.jpg"
+  },
+  {
+    "class_name": "dogs",
+    "filename": "ext_dog_03_beagle.jpg",
+    "rel_path": "dogs/ext_dog_03_beagle.jpg",
+    "sha256": "5b5d04019de75e8de74a6aa8e8eab00a555a53726ecc915e2ecf87357ab9f832",
+    "source_url": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=640&q=85"
+  },
+  {
+    "class_name": "dogs",
+    "filename": "ext_dog_04_german_shepherd.jpg",
+    "rel_path": "dogs/ext_dog_04_german_shepherd.jpg",
+    "sha256": "e605a3ce5c2d33acb2ee1fcfa5e737e256568fc639bdcbf0c2b4152d34b86aaa",
+    "source_url": "https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?w=640&q=85"
+  },
+  {
+    "class_name": "dogs",
+    "filename": "ext_dog_05_pug.jpg",
+    "rel_path": "dogs/ext_dog_05_pug.jpg",
+    "sha256": "30e7d099a7ff225cea1c032c5ef6fc336214a0f5b0fdcf11249aad1c291ff68a",
+    "source_url": "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=640&q=85"
+  }
+]

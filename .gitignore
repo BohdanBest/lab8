@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Jupyter & IDE
+.ipynb_checkpoints/
+.idea/
+.DS_Store
+
+# Dataset & local caches (raw & split images are large; external_test is kept for reproducibility)
+data/raw/
+data/split/
+data/features_cache/
+data/keras_cache/
+data/mpl_cache/
+
+# Temporary files
+*.tmp
+*.log
