@@ -1,0 +1,63 @@
+[
+  {
+    "filename": "human_01_portrait.jpg",
+    "true_label": 1,
+    "class_name": "humans",
+    "description": "Standard female portrait"
+  },
+  {
+    "filename": "human_02_standing.jpg",
+    "true_label": 1,
+    "class_name": "humans",
+    "description": "Man smiling standing"
+  },
+  {
+    "filename": "human_03_rider_on_horse.jpg",
+    "true_label": 1,
+    "class_name": "humans",
+    "description": "TRICK: Person actively riding on a horse"
+  },
+  {
+    "filename": "human_04_silhouette.jpg",
+    "true_label": 1,
+    "class_name": "humans",
+    "description": "Male close portrait with shadows"
+  },
+  {
+    "filename": "human_05_sitting.jpg",
+    "true_label": 1,
+    "class_name": "humans",
+    "description": "Man sitting outdoors"
+  },
+  {
+    "filename": "horse_01_pasture.jpg",
+    "true_label": 0,
+    "class_name": "horses",
+    "description": "Brown horse grazing in green pasture"
+  },
+  {
+    "filename": "horse_02_white_gallop.jpg",
+    "true_label": 0,
+    "class_name": "horses",
+    "description": "White horse running fast"
+  },
+  {
+    "filename": "horse_03_statue.jpg",
+    "true_label": 0,
+    "class_name": "horses",
+    "description": "TRICK: Sculptural monument / statue"
+  },
+  {
+    "filename": "horse_04_herd.jpg",
+    "true_label": 0,
+    "class_name": "horses",
+    "description": "TRICK: Multiple wild horses together"
+  },
+  {
+    "filename": "horse_05_close_face.jpg",
+    "true_label": 0,
+    "class_name": "horses",
+    "description": "Close up face portrait of brown horse"
+  }
+]
+

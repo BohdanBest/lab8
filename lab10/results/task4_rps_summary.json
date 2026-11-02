@@ -1,0 +1,468 @@
+{
+  "final_train_acc": 0.9682539701461792,
+  "final_val_acc": 0.9784946441650391,
+  "lecture_test_accuracy": 0.9,
+  "lecture_results": [
+    {
+      "file": "paper1.png",
+      "true": "paper",
+      "pred": "paper",
+      "confidence": 0.9999749660491943,
+      "probabilities": [
+        0.9999749660491943,
+        1.402365001013095e-06,
+        2.3574921215185896e-05
+      ],
+      "correct": true
+    },
+    {
+      "file": "paper2.png",
+      "true": "paper",
+      "pred": "paper",
+      "confidence": 0.9999973773956299,
+      "probabilities": [
+        0.9999973773956299,
+        3.953796401390264e-09,
+        2.56317821367702e-06
+      ],
+      "correct": true
+    },
+    {
+      "file": "paper3.png",
+      "true": "paper",
+      "pred": "scissors",
+      "confidence": 0.9981599450111389,
+      "probabilities": [
+        0.001833181595429778,
+        6.861445854156045e-06,
+        0.9981599450111389
+      ],
+      "correct": false
+    },
+    {
+      "file": "rock1.png",
+      "true": "rock",
+      "pred": "rock",
+      "confidence": 0.9999998807907104,
+      "probabilities": [
+        8.329810452512021e-11,
+        0.9999998807907104,
+        8.20298069470482e-08
+      ],
+      "correct": true
+    },
+    {
+      "file": "rock2.png",
+      "true": "rock",
+      "pred": "rock",
+      "confidence": 0.9999997615814209,
+      "probabilities": [
+        7.644948674112584e-09,
+        0.9999997615814209,
+        2.602445192678715e-07
+      ],
+      "correct": true
+    },
+    {
+      "file": "rock3.png",
+      "true": "rock",
+      "pred": "rock",
+      "confidence": 0.9999990463256836,
+      "probabilities": [
+        9.354247936244064e-07,
+        0.9999990463256836,
+        2.4023247391369296e-08
+      ],
+      "correct": true
+    },
+    {
+      "file": "rock4.png",
+      "true": "rock",
+      "pred": "rock",
+      "confidence": 0.9999983310699463,
+      "probabilities": [
+        9.280074095840973e-07,
+        0.9999983310699463,
+        7.229024845401e-07
+      ],
+      "correct": true
+    },
+    {
+      "file": "scissors1.png",
+      "true": "scissors",
+      "pred": "scissors",
+      "confidence": 0.9922019243240356,
+      "probabilities": [
+        0.00011044147686334327,
+        0.007687672041356564,
+        0.9922019243240356
+      ],
+      "correct": true
+    },
+    {
+      "file": "scissors2.png",
+      "true": "scissors",
+      "pred": "scissors",
+      "confidence": 1.0,
+      "probabilities": [
+        2.724487746519344e-09,
+        3.3510765717892355e-08,
+        1.0
+      ],
+      "correct": true
+    },
+    {
+      "file": "scissors3.png",
+      "true": "scissors",
+      "pred": "scissors",
+      "confidence": 0.9999704360961914,
+      "probabilities": [
+        2.195482920797076e-05,
+        7.66520679462701e-06,
+        0.9999704360961914
+      ],
+      "correct": true
+    }
+  ],
+  "real_photos_accuracy": 0.3333333333333333,
+  "real_photos_results": [
+    {
+      "file": "real_rock_01.jpg",
+      "true": "rock",
+      "pred": "rock",
+      "confidence": 0.9105024337768555,
+      "probabilities": [
+        0.07230784744024277,
+        0.9105024337768555,
+        0.01718977838754654
+      ],
+      "correct": true
+    },
+    {
+      "file": "real_rock_02.jpg",
+      "true": "rock",
+      "pred": "rock",
+      "confidence": 0.7122736573219299,
+      "probabilities": [
+        0.27045273780822754,
+        0.7122736573219299,
+        0.01727358065545559
+      ],
+      "correct": true
+    },
+    {
+      "file": "real_paper_01.jpg",
+      "true": "paper",
+      "pred": "rock",
+      "confidence": 0.9995823502540588,
+      "probabilities": [
+        0.00021199736511334777,
+        0.9995823502540588,
+        0.00020565013983286917
+      ],
+      "correct": false
+    },
+    {
+      "file": "real_paper_02.jpg",
+      "true": "paper",
+      "pred": "scissors",
+      "confidence": 0.6656854152679443,
+      "probabilities": [
+        0.20766599476337433,
+        0.12664860486984253,
+        0.6656854152679443
+      ],
+      "correct": false
+    },
+    {
+      "file": "real_scissors_01.jpg",
+      "true": "scissors",
+      "pred": "paper",
+      "confidence": 0.9952244758605957,
+      "probabilities": [
+        0.9952244758605957,
+        0.000549561926163733,
+        0.004226012155413628
+      ],
+      "correct": false
+    },
+    {
+      "file": "real_scissors_02.jpg",
+      "true": "scissors",
+      "pred": "rock",
+      "confidence": 0.836367666721344,
+      "probabilities": [
+        0.08169018477201462,
+        0.836367666721344,
+        0.08194214850664139
+      ],
+      "correct": false
+    }
+  ],
+  "history": {
+    "accuracy": [
+      0.3758,
+      0.5429,
+      0.7135,
+      0.8159,
+      0.9028,
+      0.9012,
+      0.9258,
+      0.9313,
+      0.9528,
+      0.9452,
+      0.9556,
+      0.9698,
+      0.9635,
+      0.9698,
+      0.9683
+    ],
+    "loss": [
+      1.2329,
+      0.9297,
+      0.6403,
+      0.4643,
+      0.2726,
+      0.2432,
+      0.2054,
+      0.1914,
+      0.1364,
+      0.1801,
+      0.1325,
+      0.0906,
+      0.1154,
+      0.1085,
+      0.0903
+    ],
+    "val_accuracy": [
+      0.5188,
+      0.922,
+      0.922,
+      0.9301,
+      0.9892,
+      0.9086,
+      0.9785,
+      0.9543,
+      0.9704,
+      0.8306,
+      0.9677,
+      0.9839,
+      0.9946,
+      0.9462,
+      0.9785
+    ],
+    "val_loss": [
+      1.0159,
+      0.373,
+      0.2736,
+      0.2467,
+      0.049,
+      0.153,
+      0.0452,
+      0.1157,
+      0.0749,
+      0.4581,
+      0.0882,
+      0.0456,
+      0.0212,
+      0.164,
+      0.0643
+    ]
+  },
+  "lecture_val_results": [
+    {
+      "file": "paper1.png",
+      "true": "paper",
+      "pred": "paper",
+      "confidence": 0.9999749660491943,
+      "probabilities": [
+        0.9999749660491943,
+        1.402365001013095e-06,
+        2.3574921215185896e-05
+      ],
+      "correct": true
+    },
+    {
+      "file": "paper2.png",
+      "true": "paper",
+      "pred": "paper",
+      "confidence": 0.9999973773956299,
+      "probabilities": [
+        0.9999973773956299,
+        3.953796401390264e-09,
+        2.56317821367702e-06
+      ],
+      "correct": true
+    },
+    {
+      "file": "paper3.png",
+      "true": "paper",
+      "pred": "scissors",
+      "confidence": 0.9981599450111389,
+      "probabilities": [
+        0.001833181595429778,
+        6.861445854156045e-06,
+        0.9981599450111389
+      ],
+      "correct": false
+    },
+    {
+      "file": "rock1.png",
+      "true": "rock",
+      "pred": "rock",
+      "confidence": 0.9999998807907104,
+      "probabilities": [
+        8.329810452512021e-11,
+        0.9999998807907104,
+        8.20298069470482e-08
+      ],
+      "correct": true
+    },
+    {
+      "file": "rock2.png",
+      "true": "rock",
+      "pred": "rock",
+      "confidence": 0.9999997615814209,
+      "probabilities": [
+        7.644948674112584e-09,
+        0.9999997615814209,
+        2.602445192678715e-07
+      ],
+      "correct": true
+    },
+    {
+      "file": "rock3.png",
+      "true": "rock",
+      "pred": "rock",
+      "confidence": 0.9999990463256836,
+      "probabilities": [
+        9.354247936244064e-07,
+        0.9999990463256836,
+        2.4023247391369296e-08
+      ],
+      "correct": true
+    },
+    {
+      "file": "rock4.png",
+      "true": "rock",
+      "pred": "rock",
+      "confidence": 0.9999983310699463,
+      "probabilities": [
+        9.280074095840973e-07,
+        0.9999983310699463,
+        7.229024845401e-07
+      ],
+      "correct": true
+    },
+    {
+      "file": "scissors1.png",
+      "true": "scissors",
+      "pred": "scissors",
+      "confidence": 0.9922019243240356,
+      "probabilities": [
+        0.00011044147686334327,
+        0.007687672041356564,
+        0.9922019243240356
+      ],
+      "correct": true
+    },
+    {
+      "file": "scissors2.png",
+      "true": "scissors",
+      "pred": "scissors",
+      "confidence": 1.0,
+      "probabilities": [
+        2.724487746519344e-09,
+        3.3510765717892355e-08,
+        1.0
+      ],
+      "correct": true
+    },
+    {
+      "file": "scissors3.png",
+      "true": "scissors",
+      "pred": "scissors",
+      "confidence": 0.9999704360961914,
+      "probabilities": [
+        2.195482920797076e-05,
+        7.66520679462701e-06,
+        0.9999704360961914
+      ],
+      "correct": true
+    }
+  ],
+  "real_photo_results": [
+    {
+      "file": "real_rock_01.jpg",
+      "true": "rock",
+      "pred": "rock",
+      "confidence": 0.9105024337768555,
+      "probabilities": [
+        0.07230784744024277,
+        0.9105024337768555,
+        0.01718977838754654
+      ],
+      "correct": true
+    },
+    {
+      "file": "real_rock_02.jpg",
+      "true": "rock",
+      "pred": "rock",
+      "confidence": 0.7122736573219299,
+      "probabilities": [
+        0.27045273780822754,
+        0.7122736573219299,
+        0.01727358065545559
+      ],
+      "correct": true
+    },
+    {
+      "file": "real_paper_01.jpg",
+      "true": "paper",
+      "pred": "rock",
+      "confidence": 0.9995823502540588,
+      "probabilities": [
+        0.00021199736511334777,
+        0.9995823502540588,
+        0.00020565013983286917
+      ],
+      "correct": false
+    },
+    {
+      "file": "real_paper_02.jpg",
+      "true": "paper",
+      "pred": "scissors",
+      "confidence": 0.6656854152679443,
+      "probabilities": [
+        0.20766599476337433,
+        0.12664860486984253,
+        0.6656854152679443
+      ],
+      "correct": false
+    },
+    {
+      "file": "real_scissors_01.jpg",
+      "true": "scissors",
+      "pred": "paper",
+      "confidence": 0.9952244758605957,
+      "probabilities": [
+        0.9952244758605957,
+        0.000549561926163733,
+        0.004226012155413628
+      ],
+      "correct": false
+    },
+    {
+      "file": "real_scissors_02.jpg",
+      "true": "scissors",
+      "pred": "rock",
+      "confidence": 0.836367666721344,
+      "probabilities": [
+        0.08169018477201462,
+        0.836367666721344,
+        0.08194214850664139
+      ],
+      "correct": false
+    }
+  ]
+}

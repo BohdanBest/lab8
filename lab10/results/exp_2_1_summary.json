@@ -1,0 +1,119 @@
+{
+  "exp": "2.1_resolution_300x300",
+  "total_params": 236256161,
+  "trainable_params": 227280897,
+  "final_train_acc": 1.0,
+  "final_val_acc": 0.94140625,
+  "epochs": 2,
+  "custom_test_acc": 0.9,
+  "custom_results": [
+    {
+      "filename": "human_01_portrait.jpg",
+      "true_class": "humans",
+      "pred_class": "humans",
+      "probability": 0.7979124784469604,
+      "confidence": 0.7979124784469604,
+      "correct": true,
+      "description": "Standard female portrait"
+    },
+    {
+      "filename": "human_02_standing.jpg",
+      "true_class": "humans",
+      "pred_class": "humans",
+      "probability": 0.8202641606330872,
+      "confidence": 0.8202641606330872,
+      "correct": true,
+      "description": "Man smiling standing"
+    },
+    {
+      "filename": "human_03_rider_on_horse.jpg",
+      "true_class": "humans",
+      "pred_class": "horses",
+      "probability": 2.4631337510072626e-05,
+      "confidence": 0.9999753686624899,
+      "correct": false,
+      "description": "TRICK: Person actively riding on a horse"
+    },
+    {
+      "filename": "human_04_silhouette.jpg",
+      "true_class": "humans",
+      "pred_class": "humans",
+      "probability": 0.9141862988471985,
+      "confidence": 0.9141862988471985,
+      "correct": true,
+      "description": "Male close portrait with shadows"
+    },
+    {
+      "filename": "human_05_sitting.jpg",
+      "true_class": "humans",
+      "pred_class": "humans",
+      "probability": 0.6464021801948547,
+      "confidence": 0.6464021801948547,
+      "correct": true,
+      "description": "Man sitting outdoors"
+    },
+    {
+      "filename": "horse_01_pasture.jpg",
+      "true_class": "horses",
+      "pred_class": "horses",
+      "probability": 3.626082980190404e-05,
+      "confidence": 0.9999637391701981,
+      "correct": true,
+      "description": "Brown horse grazing in green pasture"
+    },
+    {
+      "filename": "horse_02_white_gallop.jpg",
+      "true_class": "horses",
+      "pred_class": "horses",
+      "probability": 0.11072652041912079,
+      "confidence": 0.8892734795808792,
+      "correct": true,
+      "description": "White horse running fast"
+    },
+    {
+      "filename": "horse_03_statue.jpg",
+      "true_class": "horses",
+      "pred_class": "horses",
+      "probability": 0.13159063458442688,
+      "confidence": 0.8684093654155731,
+      "correct": true,
+      "description": "TRICK: Sculptural monument / statue"
+    },
+    {
+      "filename": "horse_04_herd.jpg",
+      "true_class": "horses",
+      "pred_class": "horses",
+      "probability": 0.0010205090511590242,
+      "confidence": 0.998979490948841,
+      "correct": true,
+      "description": "TRICK: Multiple wild horses together"
+    },
+    {
+      "filename": "horse_05_close_face.jpg",
+      "true_class": "horses",
+      "pred_class": "horses",
+      "probability": 0.01992703229188919,
+      "confidence": 0.9800729677081108,
+      "correct": true,
+      "description": "Close up face portrait of brown horse"
+    }
+  ],
+  "history": {
+    "accuracy": [
+      0.9484,
+      1.0
+    ],
+    "loss": [
+      0.5273,
+      0.00078431
+    ],
+    "val_accuracy": [
+      0.9297,
+      0.9414
+    ],
+    "val_loss": [
+      0.2184,
+      0.2082
+    ]
+  }
+}

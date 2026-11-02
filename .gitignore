@@ -24,3 +24,16 @@ data/mpl_cache/
 # Temporary files
 *.tmp
 *.log
+
+# Heavy models (hosted via GitHub Releases)
+*.keras
+*.h5
+lab10/models/
+
+# Lab 10 raw datasets and archives
+lab10/data/dogs_cats_subset/
+lab10/data/horses_humans/
+lab10/data/rps/
+lab10/data/sign_mnist/
+lab10/*.zip
+lab10/*.csv
