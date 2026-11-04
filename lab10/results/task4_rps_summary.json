@@ -393,76 +393,83 @@
   ],
   "real_photo_results": [
     {
-      "file": "real_rock_01.jpg",
-      "true": "rock",
-      "pred": "rock",
-      "confidence": 0.9105024337768555,
-      "probabilities": [
-        0.07230784744024277,
-        0.9105024337768555,
-        0.01718977838754654
+      "filename": "real_rock_01.jpg",
+      "true_class": "rock",
+      "pred_class": "rock",
+      "confidence": 0.9999595880508423,
+      "probs": [
+        3.91272442357149e-05,
+        0.9999595880508423,
+        1.3018169511269662e-06
       ],
-      "correct": true
+      "correct": true,
+      "description": "Real hand clenched into fist (rock)"
     },
     {
-      "file": "real_rock_02.jpg",
-      "true": "rock",
-      "pred": "rock",
-      "confidence": 0.7122736573219299,
-      "probabilities": [
-        0.27045273780822754,
-        0.7122736573219299,
-        0.01727358065545559
+      "filename": "real_rock_02.jpg",
+      "true_class": "rock",
+      "pred_class": "rock",
+      "confidence": 0.9224011898040771,
+      "probs": [
+        0.03405630961060524,
+        0.9224011898040771,
+        0.0435425266623497
       ],
-      "correct": true
+      "correct": true,
+      "description": "Real fist on dark background"
     },
     {
-      "file": "real_paper_01.jpg",
-      "true": "paper",
-      "pred": "rock",
-      "confidence": 0.9995823502540588,
-      "probabilities": [
-        0.00021199736511334777,
-        0.9995823502540588,
-        0.00020565013983286917
+      "filename": "real_paper_01.jpg",
+      "true_class": "paper",
+      "pred_class": "rock",
+      "confidence": 0.9984362721443176,
+      "probs": [
+        0.0013778911670669913,
+        0.9984362721443176,
+        0.00018577314040157944
       ],
-      "correct": false
+      "correct": false,
+      "description": "Real open hand palm (paper)"
     },
     {
-      "file": "real_paper_02.jpg",
-      "true": "paper",
-      "pred": "scissors",
-      "confidence": 0.6656854152679443,
-      "probabilities": [
-        0.20766599476337433,
-        0.12664860486984253,
-        0.6656854152679443
+      "filename": "real_paper_02.jpg",
+      "true_class": "paper",
+      "pred_class": "paper",
+      "confidence": 0.8209178447723389,
+      "probs": [
+        0.8209178447723389,
+        0.031428560614585876,
+        0.14765359461307526
       ],
-      "correct": false
+      "correct": true,
+      "description": "Real hand reaching out with flat palm"
     },
     {
-      "file": "real_scissors_01.jpg",
-      "true": "scissors",
-      "pred": "paper",
-      "confidence": 0.9952244758605957,
-      "probabilities": [
-        0.9952244758605957,
-        0.000549561926163733,
-        0.004226012155413628
+      "filename": "real_scissors_01.jpg",
+      "true_class": "scissors",
+      "pred_class": "rock",
+      "confidence": 0.44262000918388367,
+      "probs": [
+        0.19134049117565155,
+        0.44262000918388367,
+        0.3660394549369812
       ],
-      "correct": false
+      "correct": false,
+      "description": "Real hand showing victory / scissors gesture"
     },
     {
-      "file": "real_scissors_02.jpg",
-      "true": "scissors",
-      "pred": "rock",
-      "confidence": 0.836367666721344,
-      "probabilities": [
-        0.08169018477201462,
-        0.836367666721344,
-        0.08194214850664139
+      "filename": "real_scissors_02.jpg",
+      "true_class": "scissors",
+      "pred_class": "rock",
+      "confidence": 0.73683100938797,
+      "probs": [
+        0.10688015073537827,
+        0.73683100938797,
+        0.15628883242607117
       ],
-      "correct": false
+      "correct": false,
+      "description": "Real hand two fingers spread like scissors"
     }
-  ]
+  ],
+  "real_photo_accuracy": 0.5
 }
